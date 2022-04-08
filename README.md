@@ -13,12 +13,23 @@ Este projeto tem o objetivo de apresentar minhas skill de desvolvimento web. Uti
 
 - Baixar as dep. para o PHP
 ```
-composer dump-autoload
+composer install
 ```
 - Publish sweetAlert
 ```
 php artisan sweetalert:publish
 ```
+- Copy .env command (w. bash)
+
+```
+cp .env.example .env
+```
+
+- Key generate
+```
+php artisan key:generate
+```
+
 - Start server laravel
 ```
 php artisan serve
